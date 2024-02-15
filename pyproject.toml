@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "candfans-reporter"
+version = "0.1.0"
+description = ""
+authors = ["komanushi <155377273+komanushi@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+candfans-client = "^1.0.3"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
