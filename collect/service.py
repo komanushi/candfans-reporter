@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from candfans_client.client import CandFansClient
 
 
-def collect_service(email: str, password: str):
+def collect_sales(email: str, password: str):
     client = CandFansClient(email=email, password=password)
     user_mine = client.get_user_mine()
     mine = user_mine.users[0]
